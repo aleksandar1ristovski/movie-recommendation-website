@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style_profile.css">
+</head>
+<body>
+<nav class="navbar">
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="suggest.html">Discover</a></li>
+        <li><a href="profile.html">Profile</a></li>
+    </ul>
+</nav>
+
+<div class="profile-layout">
+    <aside class="profile-sidebar">
+        <div class="profile-card">
+            <div class="avatar"></div>
+            <h2 id="username">Movie Fan</h2>
+            <div class="level-bar-container">
+                <div class="level-bar-fill" id="level-bar-fill"></div>
+            </div>
+            <p id="level-label">Level 1</p>
+        </div>
+
+        <div class="stats-card">
+            <h3>Stats</h3>
+            <p>🎬 Total Watched: <span id="stat-total">0</span></p>
+            <p>📌 Watchlist Size: <span id="stat-watchlist">0</span></p>
+            <p>🏆 Favorite Genre: <span id="stat-genre">—</span></p>
+        </div>
+    </aside>
+
+    <main class="profile-main">
+        <h2>Watchlist</h2>
+        <div id="watchlist-container"></div>
+
+        <h2>Watched</h2>
+        <div id="watched-container"></div>
+    </main>
+</div>
+
+<script src="script_profile.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f1ea; /* warm off-white, adjust to your homepage bg */
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin: 24px auto 0;
+
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    background-color: #2b2b2b;
+    padding: 12px 40px;
+    border-radius: 30px;
+}
+
+.navbar li a {
+    color: #f4f1ea;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+.navbar li a:hover {
+    color: #d4af37; /* a subtle accent on hover */
+}
+
+#movie-details {
+    display: flex;
+    justify-content: center;
+    padding: 60px 40px;
+}
+
+.details-card {
+    display: flex;
+    gap: 40px;
+    max-width: 900px;
+}
+
+.details-card img {
+    width: 300px;
+    border-radius: 12px;
+}
+
+.details-info .overview {
+    margin: 16px 0;
+    line-height: 1.6;
+    color: #444;
+}
+
+.actions {
+    display: flex;
+    gap: 12px;
+}
+
+.actions button {
+    padding: 12px 20px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    color: white;
+}
+
+#watchlist-btn {
+    background-color: #2b2b2b;
+}
+
+#watched-btn {
+    background-color: #d4af37;
+}
