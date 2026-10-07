@@ -17,9 +17,9 @@ based on what they've watched.
 - JavaScript
 
 ## Screenshots
-![Home page](screenshot-home.png)
-![Suggestions page](screenshot-suggest.png)
-![Profile page](screenshot-profile.png)
+![Home page](MovieRecomendationWebPage/screenshot-home.png)
+![Suggestions page](MovieRecomendationWebPage/screenshot-suggest.png)
+![Profile page](MovieRecomendationWebPage/screenshot-profile.png)
 
 ## How to run
 1. Download or clone this repository.
