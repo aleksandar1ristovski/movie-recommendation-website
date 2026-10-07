@@ -19,6 +19,7 @@ based on what they've watched.
 ## Screenshots
 ![Home page](screenshot-home.png)
 ![Suggestions page](screenshot-suggest.png)
+![Profile page](screenshot-profile.png)
 
 ## How to run
 1. Download or clone this repository.
